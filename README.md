@@ -21,3 +21,18 @@ Support for:
 Works on 64-bit blocks (as defined by Blowfish)
 
 Command-line style input for plaintext and mode selection
+
+# Running the Program
+
+When executed, the script asks for:
+1. Hexadecimal input data (up to 64 bits)
+2. Ciphering mode: ECB or CBC
+
+Example:
+Enter input data: 2e3dd
+Choose ciphering mode(ECB o CBC): ECB
+
+--- Mode ECB ---
+Cipher data: ead5038b53f6edb0
+Plain data: 2e3dd
+
