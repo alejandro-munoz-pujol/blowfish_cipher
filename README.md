@@ -29,10 +29,14 @@ When executed, the script asks for:
 2. Ciphering mode: ECB or CBC
 
 Example:
+
+```python
 Enter input data: 2e3dd
 Choose ciphering mode(ECB o CBC): ECB
 
 --- Mode ECB ---
+
 Cipher data: ead5038b53f6edb0
 Plain data: 2e3dd
+```
 
