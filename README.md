@@ -6,14 +6,18 @@ It includes key scheduling, S-box loading, block encryption/decryption, and mode
 # Features
 
 Complete Blowfish encryption and decryption pipeline
+
 Manual implementation of:
   - P-array initialization
   - S-box loading from external files (sbox1.txt, sbox2.txt, sbox3.txt, sbox4.txt)
   - f-function
   - 16-round Feistel network
   - Key expansion algorithm
+
 Support for:
   - ECB encryption/decryption
   - CBC encryption/decryption with random 64-bit IV
+
 Works on 64-bit blocks (as defined by Blowfish)
+
 Command-line style input for plaintext and mode selection
